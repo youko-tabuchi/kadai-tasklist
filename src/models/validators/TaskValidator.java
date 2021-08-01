@@ -23,19 +23,19 @@ public class TaskValidator {
         return errors;
     }
 
-    // タイトルの必須入力チェック
+    // タスクの必須入力チェック
     private static String validateTitle(String title) {
         if(title == null || title.equals("")) {
-            return "タイトルを入力してください。";
+            return "タスクを入力してください。";
         }
 
         return "";
     }
 
-    // メッセージの必須入力チェック
+    // タスク詳細の必須入力チェック
     private static String validateContent(String content) {
         if(content == null || content.equals("")) {
-            return "メッセージを入力してください。";
+            return "タスク詳細を入力してください。";
         }
 
         return "";

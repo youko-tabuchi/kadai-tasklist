@@ -71,7 +71,7 @@ button {
 
 #footer {
     text-align: center;
-
+}
 #flush_success {
     width: 100%;
     padding-top: 28px;
@@ -80,7 +80,7 @@ button {
     margin-bottom: 15px;
     color: #155724;
     background-color: #d4edda;
-
+}
 #flush_error {
     width: 100%;
     padding-top: 28px;
@@ -89,6 +89,5 @@ button {
     margin-bottom: 15px;
     color: #721c24;
     background-color: #f8d7da;
-}}
 
 }
